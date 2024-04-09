@@ -1,0 +1,98 @@
+body {
+  color: white;
+  background-color: black;
+  font-family: Raleway;
+}
+header {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.imagen-principal {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.imagen-principal img {
+  width: 100vw;
+}
+
+.descripcion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+}
+.texto-descripcion {
+  top: 876px;
+  left: 150px;
+  width: 475px;
+  height: 197px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 300 16px/19px Raleway;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
+  font-size: 16px;
+}
+.imagen-descripcion img {
+  top: 845px;
+  left: 731px;
+  width: 399px;
+  height: 237px;
+  background: transparent url(./assets/css/img/iguana2.jpg);
+  opacity: 1;
+}
+
+.caracteristicas {
+  padding: 2rem;
+  background: #1e1a13 0% 0% no-repeat padding-box;
+}
+
+.titulo-caracteristicas {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.titulo-caracteristicas h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.lista-caracteristicas {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.lista-caracteristicas p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.galeria-imagenes {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem;
+}
+
+.galeria-imagenes img {
+  width: 316px;
+  height: 202px;
+  padding-right: 10px;
+}
+footer {
+  background: #1e1a13 0% 0% no-repeat padding-box;
+  opacity: 0.94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 20px;
+}
